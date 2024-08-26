@@ -1,0 +1,302 @@
+body {
+  padding-top: 10px;
+}
+#cart-icon {
+  cursor: pointer;
+}
+
+.cart-dialog {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+.cart-dialog.open {
+  right: 0;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.cart-content {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.notification {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.notification.show {
+  display: block;
+  opacity: 1;
+}
+
+.img-equal {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.overlay-text {
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 55px;
+  font-family: sans-serif;
+}
+.typed-container {
+  position: absolute;
+  top: 42%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: rgb(219, 228, 57);
+  font-size: 55px;
+  font-style: italic;
+  width: 58%;
+}
+.paragraph-container {
+  position: absolute;
+  top: 58%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-family: Georgia;
+  width: 58%;
+}
+.btn {
+  position: absolute;
+  top: 65%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  background-color: orangered;
+  color: white;
+  font-family: Georgia;
+  height: 50px;
+  margin-top: 20px;
+}
+h2 {
+  text-align: center;
+  font-size: 44px;
+  font-family: "Lucida Sans";
+}
+.Menu {
+  background-color: rgb(235, 235, 235);
+  padding-top: 10px;
+  height: 110vh;
+}
+.group-container {
+  height: 50vh;
+}
+.group p {
+  max-width: 220px;
+  max-height: 72px;
+}
+.cards-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(300px, 1fr);
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card h3 {
+  margin: 15px 0;
+}
+.card p {
+  margin: 10px 0;
+}
+.card .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.card button:hover {
+  background-color: #cc0000;
+}
+.view-all {
+  margin-top: 30px;
+  text-align: center;
+}
+h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Lucida Sans";
+}
+marquee {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.css1 {
+  font-size: 40px;
+  background-color: rgb(211, 211, 211);
+}
+.Real-container {
+  background-color: black;
+  height: 150vh;
+}
+h5 {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 44px;
+  color: white;
+  font-family: "Lucida Sans";
+}
+.carousel-container {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  overflow: hidden;
+  margin: 100px 0px 50px 230px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.reel {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.reel video {
+  width: 100%;
+  height: auto;
+}
+.text-container {
+  max-height: 200px;
+  margin-top: 50px;
+}
+p.text1 {
+  max-width: 250px;
+  margin-top: 20px;
+}
+p.text2 {
+  max-width: 250px;
+}
+p.text3 {
+  max-width: 250px;
+}
+.icons-container {
+  margin-bottom: 50px;
+}
+.G-container {
+  background-color: rgb(210, 210, 210);
+  width: 100%;
+  height: 50vh;
+}
+#text {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 44px;
+  font-family: "Lucida Grande";
+}
+button.btn-1 {
+  background-color: orangered;
+  color: white;
+  height: 60px;
+  width: 200px;
+  margin-top: 30px;
+  font-family: Georgia;
+  border-radius: 8px;
+  margin-bottom: 60px;
+  border: none;
+}
+.footer {
+  background-color: black;
+}
+.list-unstyled {
+  color: white;
+}
+.row {
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background-color: #0a66c2;
+  color: white;
+}

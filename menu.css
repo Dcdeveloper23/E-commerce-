@@ -1,0 +1,97 @@
+marquee {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.css1 {
+  font-size: 40px;
+  background-color: rgb(211, 211, 211);
+}
+
+.cards-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(300px, 1fr);
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card p {
+  margin: 10px 0;
+}
+.card .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 200px;
+}
+.card button:hover {
+  background-color: #cc0000;
+}
+h5 {
+  font-weight: bold;
+}
+.footer {
+  background-color: black;
+}
+.list-unstyled {
+  color: white;
+}
+.row {
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background-color: #0a66c2;
+  color: white;
+}
+h2 {
+  font-size: 44px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  
+}

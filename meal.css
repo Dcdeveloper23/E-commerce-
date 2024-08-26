@@ -1,0 +1,287 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.big-container {
+  max-width: 1230px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 673px;
+}
+.choose-container {
+  text-align: center;
+  background-color: #e4e4e7;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-plans {
+  width: 591px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.section-meals {
+  margin-bottom: 70px;
+  max-height: 591px;
+}
+.section-meals h2 {
+  margin-bottom: 50px;
+}
+.vertical {
+  border-left: 1px solid black;
+  height: 672px;
+  position: absolute;
+  left: 50%;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 22px;
+}
+.header p {
+  color: #666;
+}
+.section {
+  margin-bottom: 20px;
+}
+
+.plans,
+.meals,
+.frequency {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.plan-option,
+.meal-option,
+.frequency-option {
+  flex: 1 1 calc(33% - 10px);
+  margin: 5px;
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.plan-option.selected,
+.meal-option.selected,
+.frequency-option.selected {
+  border-color: #ff4b4b;
+  background-color: #ffeded;
+}
+.plan-option:hover,
+.meal-option:hover,
+.frequency-option:hover {
+  border-color: #ff4b4b;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.details .free {
+  font-size: 1.5em;
+  color: #ff4b4b;
+}
+.finalize-btn {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #ff4b4b;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.finalize-btn:hover {
+  background-color: #e04444;
+}
+.display-container {
+  display: flex;
+  justify-content: center;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+.plan-option.selected {
+  width: 272px;
+  height: 199px;
+}
+.plan-option {
+  width: 272px;
+  height: 199px;
+}
+.meal-container {
+  display: flex;
+  justify-content: center;
+}
+small {
+  color: #e04444;
+}
+.option-container {
+  display: flex;
+  justify-content: center;
+}
+.meal-option.selected {
+  width: 270px;
+  height: 65px;
+}
+.meal-option {
+  width: 270px;
+  height: 66px;
+}
+.frequency-container {
+  display: flex;
+  justify-content: center;
+}
+.section-frequency h4 {
+  font-size: 16px;
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.section-frequency p {
+  text-align: start;
+  margin-bottom: 10px;
+}
+.frequency-option.selected {
+  width: 270px;
+  height: 57px;
+}
+.frequency-option {
+  width: 270px;
+  height: 57px;
+}
+.details {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  width: 560px;
+  height: 92px;
+  margin-top: 25px;
+}
+.prize {
+  margin-bottom: 18px;
+}
+.span1 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.span2 {
+  color: #e04444;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.Performance-container {
+  background-color: #fff;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.cards-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(300px, 1fr);
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card h3 {
+  margin: 15px 0;
+}
+.card p {
+  margin: 10px 0;
+}
+.card .price {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.card button:hover {
+  background-color: #cc0000;
+}
+
+.footer {
+  background-color: black;
+}
+.list-unstyled {
+  color: white;
+}
+.row {
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background-color: #0a66c2;
+  color: white;
+}
+h2 {
+  font-size: 44px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  color: white;
+}

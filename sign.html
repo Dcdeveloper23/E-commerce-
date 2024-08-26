@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sign.css">
+    <title>Sign-up form</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="https://www.fuelmeals.com/cdn/shop/files/Group_3_280x.png?v=1671468222" alt="Bootstrap"
+                        width="220" height="40">
+                </a>
+            </div>
+        </nav>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active mx-auto p-3 mt-2" aria-current="page" href="./menu.html">Our Menu</a>
+                </li>
+                <li class="nav-item mx-auto p-3 ">
+                    <a class="nav-link" href="./meal.html">Meal Plans</a>
+                </li>
+                <li class="nav-item mx-auto p-3">
+                    <a class="nav-link" href="#">how it works</a>
+                </li>
+                <li class="nav-item mx-auto p-3">
+                    <a class="nav-link" href="#">Transformation</a>
+                </li>
+                <li class="nav-item mx-auto p-3">
+                    <a class="nav-link" href="./FAQ.html">FAQ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex justify content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-auto p-3">
+                    <a class="nav-link active" aria-current="page" href="./sign.html"><img src="./images/avatar.png"
+                            width="30" height="25"></a>
+                </li>
+                <li class="nav-item mx-auto p-3">
+                    <a class="nav-link " href="#"><img src="./images/shopping-cart.png" width="30" height="25"></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="form-container">
+        <div class="image-container">
+            <img src="https://img.freepik.com/premium-vector/women-s-day-pattern-with-women-faces_23-2148403483.jpg?w=740"
+                width="500px" height="600px" alt="Image">
+        </div>
+
+        <div class="form-section">
+            <h2>Create Account</h2>
+            <form id="Signupform">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+                <div class="button-container">
+                    <button type="submit">Sign Up</button>
+                    <button type="submit">Sign in</button>
+                </div>
+            </form>
+            <p id="successMessage">Sign Up Successfully!</p>
+        </div>
+
+
+    </div>
+    <a href="./menu.html"></a>
+    <script src="./sign.js"></script>
+</body>
+
+</html>

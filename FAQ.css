@@ -1,0 +1,81 @@
+h2 {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#search {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+}
+h3 {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.cards {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardss {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cardsss {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.card {
+  width: 366.4px;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 80px;
+}
+.list-unstyled {
+  color: white;
+}
+.row {
+  color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background-color: #0a66c2;
+  color: white;
+}
+h2 {
+  font-size: 44px;
+  width: max-content;
+}
